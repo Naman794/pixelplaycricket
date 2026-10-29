@@ -26,4 +26,8 @@ Run `npm test` to verify rules, gameplay and backend validation. The existing ga
 
 ## Multiplayer development
 
-See [MULTIPLAYER.md](MULTIPLAYER.md) for the proposed head-to-head modes, gameplay/UI changes, networking architecture, fairness safeguards and staged implementation plan. Multiplayer is planned; it is not implemented yet.
+See [MULTIPLAYER.md](MULTIPLAYER.md) for the proposed head-to-head modes, gameplay/UI changes, networking architecture, fairness safeguards and staged implementation plan. A separate casual Bat vs Bowl prototype is available on this testing branch. See [MULTIPLAYER_TESTING.md](MULTIPLAYER_TESTING.md) for rules and how to run it.
+
+### Friend-match prototype
+
+Run `npm start`, then open `http://localhost:3000/multiplayer/`. Two players take turns batting and bowling: two overs and three wickets per innings, role-specific POVs, a target chase and mutual rematches. A shared running server is required; multiplayer is not included in the offline mobile bundle.

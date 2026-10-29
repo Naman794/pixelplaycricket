@@ -1,6 +1,6 @@
 # Multiplayer roadmap — Pixel Play Cricket
 
-**Status: proposed design. Multiplayer is not implemented in this repository yet.**
+**Status: roadmap with an implemented casual prototype on the multiplayer testing branch. See [MULTIPLAYER_TESTING.md](MULTIPLAYER_TESTING.md). The prototype uses Bat vs Bowl, two overs and three wickets per innings; the Batting Duel below remains an alternative mode proposal.**
 
 The goal is to make the game something friends challenge each other to play again. A shared leaderboard alone is not multiplayer. The first release should deliver a reliable head-to-head contest before adding leagues, chat or large tournaments.
 
