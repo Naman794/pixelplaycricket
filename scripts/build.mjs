@@ -1,0 +1,1 @@
+import {rmSync,mkdirSync,cpSync} from 'node:fs';rmSync('dist',{recursive:true,force:true});mkdirSync('dist');for(const f of ['index.html','config.js','src','lib','assets'])cpSync(f,'dist/'+f,{recursive:true});console.log('Offline mobile web assets ready in dist/');
