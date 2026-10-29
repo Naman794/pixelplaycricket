@@ -1,0 +1,1 @@
+import {readFileSync,writeFileSync,mkdirSync,copyFileSync} from 'node:fs';mkdirSync('public/rules',{recursive:true});copyFileSync('lib/cricket.mjs','public/rules/cricket.mjs');copyFileSync('lib/chase.mjs','public/rules/chase.mjs');writeFileSync('game-content.ts','export const GAME_HTML = '+JSON.stringify(readFileSync('game.html','utf8'))+';\n');
