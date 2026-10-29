@@ -23,3 +23,7 @@ This server expects same-origin requests. A remote API for a native app needs se
 - `tests/`: rules, gameplay and backend checks.
 
 Run `npm test` to verify rules, gameplay and backend validation. The existing game's scoring windows and chase ladder are preserved. The shared leaderboard recalculates server-recorded delivery receipts but is not competition-grade anti-cheat. Offline scores are local and unverified.
+
+## Multiplayer development
+
+See [MULTIPLAYER.md](MULTIPLAYER.md) for the proposed head-to-head modes, gameplay/UI changes, networking architecture, fairness safeguards and staged implementation plan. Multiplayer is planned; it is not implemented yet.
